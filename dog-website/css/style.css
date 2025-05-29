@@ -1,0 +1,95 @@
+/*
+File: style.css
+Purpose: External stylesheet for "All About Dogs" webpage
+Author: Neha Gaddala
+Created on: May 28, 2025
+Description: This CSS file styles the dog-themed website with typography, layout, and a background image
+background image credit:https://www.bing.com/images/search?q=dogs+images&id=80B32626989F2DEE45474B44BEC5FADE39FEB6CB&FORM=IACFIR.
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('../images/dog-background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+
+h1 {
+  font-size: 2.5em;
+  color: #2b2b2b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #444;
+  border-bottom: 2px solid #999;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+
+p {
+  max-width: 800px;
+  margin: 10px auto;
+  font-size: 1.1em;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #888;
+  text-align: center;
+}
+
+th {
+  background-color: #f7c08a;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+p small {
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+
+
+a img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
